@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Validasi Employee Name</description>
+   <name>TC.2.002 Employee Name No Exist</name>
+   <tag>#TC.2.002</tag>
+   <comment></comment>
+   <testCaseGuid>f9018a99-23ac-4548-88d4-36000aaa12cf</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a9f9023d-0415-4383-9aad-db42f136e02e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Enabled'</defaultValue>
+      <description></description>
+      <id>a9f9023d-0415-4383-9aad-db42f136e02e</id>
+      <masked>false</masked>
+      <name>status</name>
+   </variable>
+</TestCaseEntity>

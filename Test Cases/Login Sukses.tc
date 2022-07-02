@@ -5,4 +5,17 @@
    <tag>#TC.1.004</tag>
    <comment></comment>
    <testCaseGuid>0aeb49a6-f4fa-400a-b19e-c80a8898b935</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7f9822dd-c95b-4aaf-97da-b548d6d84f55</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'https://opensource-demo.orangehrmlive.com/'</defaultValue>
+      <description></description>
+      <id>7f9822dd-c95b-4aaf-97da-b548d6d84f55</id>
+      <masked>false</masked>
+      <name>URL</name>
+   </variable>
 </TestCaseEntity>

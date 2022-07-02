@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>Akses ke menu Admin</description>
-   <name>Admin Menu</name>
+   <description>Input Employee Name</description>
+   <name>EmployeeName</name>
    <tag></tag>
-   <elementGuidId>2dcd5453-9f22-4048-8176-166a1de49fa7</elementGuidId>
+   <elementGuidId>c892e9ff-4c21-465e-ae4b-2ea8c6a78b4b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;menu_admin_viewAdminModule&quot;]</value>
+         <value>//*[@id=&quot;systemUser_employeeName_empId&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

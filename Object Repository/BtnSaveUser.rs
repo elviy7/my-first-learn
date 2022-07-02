@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>Akses ke menu Admin</description>
-   <name>Admin Menu</name>
+   <description>Button Save User</description>
+   <name>BtnSaveUser</name>
    <tag></tag>
-   <elementGuidId>2dcd5453-9f22-4048-8176-166a1de49fa7</elementGuidId>
+   <elementGuidId>e3f02321-431c-42d2-b991-7d66416415d3</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;menu_admin_viewAdminModule&quot;]</value>
+         <value>//*[@id=&quot;btnSave&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -17,3 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('Login Sukses'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Admin Menu'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('btnAdd_User'))
+
+WebUI.takeScreenshot()
+
+WebUI.click(findTestObject('BtnSaveUser'))
+
+WebUI.takeScreenshot()
+
