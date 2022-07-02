@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Pengecekan field-field mandatonry saat add user</description>
+   <name>TC.2.001 Mandatory Add User</name>
+   <tag>#TC.2.001</tag>
+   <comment></comment>
+   <testCaseGuid>aaa13929-8757-43e9-bdf7-9aa6e76129c2</testCaseGuid>
+</TestCaseEntity>
