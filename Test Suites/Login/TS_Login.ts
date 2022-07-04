@@ -38,11 +38,5 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Login Sukses</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>7f9822dd-c95b-4aaf-97da-b548d6d84f55</variableId>
-      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

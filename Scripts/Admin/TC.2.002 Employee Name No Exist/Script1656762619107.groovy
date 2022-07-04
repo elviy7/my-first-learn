@@ -23,9 +23,17 @@ WebUI.click(findTestObject('Admin Menu'))
 
 WebUI.click(findTestObject('btnAdd_User'))
 
-not_run: WebUI.setText(findTestObject('EmployeeName'), 'Elvi')
+WebUI.selectOptionByValue(findTestObject('UserRole_Add'), 'ESS', false)
 
-WebUI.setText(findTestObject('Username_Add'), 'elvi123')
+WebUI.setText(findTestObject('EmployeeName'), 'Elvi')
 
-WebUI.selectOptionByValue(findTestObject('Status'), status, false)
+WebUI.setText(findTestObject('Username_Add'), 'elviy7')
+
+WebUI.selectOptionByValue(findTestObject('Status'), 'Enabled', false)
+
+WebUI.setEncryptedText(findTestObject('Password_Add'), '6N6Uo2JFhG8=')
+
+WebUI.setEncryptedText(findTestObject('ConfirmPassword_Add'), '6N6Uo2JFhG8=')
+
+WebUI.click(findTestObject('BtnSaveUser'))
 

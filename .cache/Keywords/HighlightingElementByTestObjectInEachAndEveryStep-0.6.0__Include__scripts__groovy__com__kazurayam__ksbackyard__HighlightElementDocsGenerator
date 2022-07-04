@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "88278B9FC136A52E1BFABB50FDFDA358",
+  "keywordClasses": [
+    {
+      "name": "com.kazurayam.ksbackyard.HighlightElementDocsGenerator",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

@@ -17,11 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('https://opensource-demo.orangehrmlive.com/')
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/')
 
 WebUI.maximizeWindow()
 
-WebUI.delay(1)
+not_run: WebUI.delay(1)
 
 WebUI.setText(findTestObject('Username'), 'Admin')
 
