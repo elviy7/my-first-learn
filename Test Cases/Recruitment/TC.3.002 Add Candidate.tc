@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Menambahkan Kandidat</description>
+   <name>TC.3.002 Add Candidate</name>
+   <tag>#TC.3.002</tag>
+   <comment></comment>
+   <testCaseGuid>4f4b1de1-320d-4a03-904d-25329f2fdd26</testCaseGuid>
+</TestCaseEntity>
