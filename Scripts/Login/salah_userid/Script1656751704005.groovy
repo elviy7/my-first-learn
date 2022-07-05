@@ -21,7 +21,13 @@ WebUI.openBrowser('https://opensource-demo.orangehrmlive.com/')
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('btnLogin'))
+WebUI.setText(findTestObject('Login/Username'), 'Elvi')
+
+WebUI.setEncryptedText(findTestObject('Login/Password'), 'hUKwJTbofgPU9eVlw/CnDQ==')
+
+WebUI.takeScreenshot()
+
+WebUI.click(findTestObject('Login/btnLogin'))
 
 WebUI.takeScreenshot()
 

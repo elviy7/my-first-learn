@@ -17,19 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('https://opensource-demo.orangehrmlive.com/')
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/')
+
+WebUI.maximizeWindow()
+
+not_run: WebUI.delay(1)
+
+WebUI.setText(findTestObject('Login/Username'), 'Admin')
+
+WebUI.setEncryptedText(findTestObject('Login/Password'), 'hUKwJTbofgPU9eVlw/CnDQ==')
+
+WebUI.takeScreenshot()
+
+WebUI.click(findTestObject('Login/btnLogin'))
 
 WebUI.delay(1)
 
-WebUI.setText(findTestObject('Username'), 'Elvi')
-
-WebUI.setEncryptedText(findTestObject('Password'), 'hUKwJTbofgPU9eVlw/CnDQ==')
-
 WebUI.takeScreenshot()
-
-WebUI.click(findTestObject('btnLogin'))
-
-WebUI.takeScreenshot()
-
-WebUI.closeBrowser()
 

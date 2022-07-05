@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>Username Login</description>
-   <name>Username</name>
+   <description>Menampilkan form Add User</description>
+   <name>btnAdd_User</name>
    <tag></tag>
-   <elementGuidId>417d5c35-fc0d-4a72-9ad8-f91f0c4f7977</elementGuidId>
+   <elementGuidId>c81b59c7-1902-420d-8a55-51d1c166c6a9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;txtUsername&quot;]</value>
+         <value>//*[@id=&quot;btnAdd&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

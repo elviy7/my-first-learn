@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>Object Password saat add user</description>
-   <name>Password_Add</name>
+   <description>Akses ke menu Admin</description>
+   <name>Admin Menu</name>
    <tag></tag>
-   <elementGuidId>bb3a6a2f-2568-418b-9844-4c8973136193</elementGuidId>
+   <elementGuidId>2dcd5453-9f22-4048-8176-166a1de49fa7</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;systemUser_password&quot;]</value>
+         <value>//*[@id=&quot;menu_admin_viewAdminModule&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

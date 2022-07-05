@@ -17,23 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Login Sukses'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Login/Login Sukses'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Admin Menu'))
+WebUI.click(findTestObject('Admin/Admin Menu'))
 
-WebUI.click(findTestObject('btnAdd_User'))
+WebUI.click(findTestObject('Admin/btnAdd_User'))
 
-WebUI.selectOptionByValue(findTestObject('UserRole_Add'), 'ESS', false)
+not_run: WebUI.selectOptionByValue(findTestObject('Admin/UserRole_Add'), 'ESS', false)
 
-WebUI.setText(findTestObject('EmployeeName'), 'Elvi')
+not_run: WebUI.setText(findTestObject('Admin/EmployeeName'), 'Elvi')
 
-WebUI.setText(findTestObject('Username_Add'), 'elviy7')
+not_run: WebUI.setText(findTestObject('Admin/Username_Add'), 'elviy7')
 
-WebUI.selectOptionByValue(findTestObject('Status'), 'Enabled', false)
+not_run: WebUI.selectOptionByValue(findTestObject('Admin/Status'), 'Enabled', false)
 
-WebUI.setEncryptedText(findTestObject('Password_Add'), '6N6Uo2JFhG8=')
+not_run: WebUI.setEncryptedText(findTestObject('Admin/Password_Add'), '6N6Uo2JFhG8=')
 
-WebUI.setEncryptedText(findTestObject('ConfirmPassword_Add'), '6N6Uo2JFhG8=')
+not_run: WebUI.setEncryptedText(findTestObject('Admin/ConfirmPassword_Add'), '6N6Uo2JFhG8=')
 
-WebUI.click(findTestObject('BtnSaveUser'))
+not_run: WebUI.click(findTestObject('Admin/BtnSaveUser'))
 

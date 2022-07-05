@@ -7,21 +7,29 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'formSelect valid']</value>
+         <value>//*[@id = 'systemUser_userType']</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@name=&quot;systemuser[UserType]&quot;]</value>
+         <value>//*[@id=&quot;systemUser_userType&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>formSelect valid</value>
-      <webElementGuid>bc90521f-270e-419d-8a5d-4a17344eb3e9</webElementGuid>
+      <webElementGuid>e9fc2d3a-2bdb-4c58-8cab-f085630ec113</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>systemUser_userType</value>
+      <webElementGuid>c8979b37-fa85-4f18-a5d0-41a543a862c1</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -19,13 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Login/Login Sukses'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Admin/Admin Menu'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Recruitment/Recruitment_Menu'))
 
-WebUI.click(findTestObject('Admin/btnAdd_User'))
+WebUI.click(findTestObject('Recruitment/btnAdd_Recruitment'))
 
-WebUI.takeScreenshot()
-
-WebUI.click(findTestObject('Admin/BtnSaveUser'))
+WebUI.click(findTestObject('Recruitment/btnSave_Recruitment'))
 
 WebUI.takeScreenshot()
 
