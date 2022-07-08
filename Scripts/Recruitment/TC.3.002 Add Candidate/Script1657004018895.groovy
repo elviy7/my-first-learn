@@ -21,7 +21,7 @@ WebUI.callTestCase(findTestCase('Login/Login Sukses'), [:], FailureHandling.STOP
 
 WebUI.click(findTestObject('Recruitment/Recruitment_Menu'))
 
-WebUI.delay(3)
+WebUI.delay(1)
 
 WebUI.click(findTestObject('Recruitment/btnAdd_Recruitment'))
 
