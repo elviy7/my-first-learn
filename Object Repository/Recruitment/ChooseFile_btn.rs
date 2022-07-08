@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;addCandidate_resume&quot;][@type=&quot;file&quot;]</value>
+         <value>/html/body/div[1]/div[3]/div[1]/div[2]/form/fieldset/ol[2]/li[2]/input</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

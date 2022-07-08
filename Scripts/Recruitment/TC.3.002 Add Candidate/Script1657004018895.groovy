@@ -21,6 +21,8 @@ WebUI.callTestCase(findTestCase('Login/Login Sukses'), [:], FailureHandling.STOP
 
 WebUI.click(findTestObject('Recruitment/Recruitment_Menu'))
 
+WebUI.delay(3)
+
 WebUI.click(findTestObject('Recruitment/btnAdd_Recruitment'))
 
 WebUI.setText(findTestObject('Recruitment/FullName_txt'), 'Elviy')
@@ -35,7 +37,9 @@ WebUI.setText(findTestObject('Recruitment/ContactNo_txt'), '081234345678')
 
 WebUI.selectOptionByValue(findTestObject('Recruitment/vacancy_list'), '6', false)
 
-WebUI.click(findTestObject('Recruitment/ChooseFile_btn'))
+WebUI.delay(3)
+
+WebUI.uploadFile(findTestObject('Recruitment/ChooseFile_btn'), 'D:\\Elvi\\image003.png')
 
 WebUI.setText(findTestObject('Recruitment/Keywords_txt'), '3')
 
@@ -43,7 +47,7 @@ WebUI.setText(findTestObject('Recruitment/comment_txtArea'), 'Learning Katalon')
 
 WebUI.check(findTestObject('Recruitment/keepData_checkBox'))
 
-WebUI.click(findTestObject('Recruitment/btnSave_Recruitment'))
+not_run: WebUI.click(findTestObject('Recruitment/btnSave_Recruitment'))
 
 not_run: WebUI.takeScreenshot()
 
