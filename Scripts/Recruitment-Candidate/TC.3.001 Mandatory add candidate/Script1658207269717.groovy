@@ -21,19 +21,11 @@ WebUI.callTestCase(findTestCase('Login/Login Sukses'), [:], FailureHandling.STOP
 
 WebUI.click(findTestObject('Recruitment/Recruitment_Menu'))
 
-WebUI.delay(1)
+WebUI.click(findTestObject('Recruitment/Candidate_Tab'))
 
 WebUI.click(findTestObject('Recruitment/btnAdd_Recruitment'))
 
-WebUI.setText(findTestObject('Recruitment/FullName_txt'), 'jumlah karakter yang diinput 40 karakter atau sudah melebihi max.lenght-nya yaitu 35 karakter')
+WebUI.click(findTestObject('Recruitment/btnSave_Recruitment'))
 
-WebUI.setText(findTestObject('Recruitment/MidleName_txt'), 'jumlah karakter yang diinput 40 karakter atau sudah melebihi max.lenght-nya yaitu 35 karakter')
-
-WebUI.setText(findTestObject('Recruitment/LastName_txt'), 'jumlah karakter yang diinput 40 karakter atau sudah melebihi max.lenght-nya yaitu 35 karakter')
-
-WebUI.delay(2)
-
-WebUI.setText(findTestObject('Recruitment/comment_txtArea'), 'jumlah karakter yang diinput 40 karakter atau sudah melebihi max.lenght-nya yaitu 35 karakter')
-
-not_run: WebUI.click(findTestObject('Recruitment/btnSave_Recruitment'))
+WebUI.takeScreenshot()
 

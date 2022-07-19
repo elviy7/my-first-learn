@@ -23,31 +23,21 @@ WebUI.click(findTestObject('Recruitment/Recruitment_Menu'))
 
 WebUI.delay(1)
 
+WebUI.click(findTestObject('Recruitment/Candidate_Tab'))
+
 WebUI.click(findTestObject('Recruitment/btnAdd_Recruitment'))
 
-WebUI.setText(findTestObject('Recruitment/FullName_txt'), 'Elviy')
+WebUI.setText(findTestObject('Recruitment/FullName_txt'), 'jumlah karakter yang diinput 40 karakter atau sudah melebihi max.lenght-nya yaitu 35 karakter')
 
-WebUI.setText(findTestObject('Recruitment/MidleName_txt'), 'Tes')
+WebUI.setText(findTestObject('Recruitment/MidleName_txt'), 'jumlah karakter yang diinput 40 karakter atau sudah melebihi max.lenght-nya yaitu 35 karakter')
 
-WebUI.setText(findTestObject('Recruitment/LastName_txt'), 'Katalon')
+WebUI.setText(findTestObject('Recruitment/LastName_txt'), 'jumlah karakter yang diinput 40 karakter atau sudah melebihi max.lenght-nya yaitu 35 karakter')
 
-WebUI.setText(findTestObject('Recruitment/email_txt'), 'elviy7@gmail.com')
+WebUI.delay(2)
 
-WebUI.setText(findTestObject('Recruitment/ContactNo_txt'), '081234345678')
+WebUI.setText(findTestObject('Recruitment/comment_txtArea'), 'jumlah karakter yang diinput 40 karakter atau sudah melebihi max.lenght-nya yaitu 35 karakter')
 
-WebUI.selectOptionByValue(findTestObject('Recruitment/vacancy_list'), '6', false)
+WebUI.click(findTestObject('Recruitment/btnSave_Recruitment'))
 
-WebUI.delay(3)
-
-WebUI.uploadFile(findTestObject('Recruitment/ChooseFile_btn'), 'D:\\Elvi\\image003.png')
-
-WebUI.setText(findTestObject('Recruitment/Keywords_txt'), '3')
-
-WebUI.setText(findTestObject('Recruitment/comment_txtArea'), 'Learning Katalon')
-
-WebUI.check(findTestObject('Recruitment/keepData_checkBox'))
-
-not_run: WebUI.click(findTestObject('Recruitment/btnSave_Recruitment'))
-
-not_run: WebUI.takeScreenshot()
+WebUI.takeScreenshot()
 

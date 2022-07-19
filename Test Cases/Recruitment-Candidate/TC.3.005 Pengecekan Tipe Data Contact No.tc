@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Pengecekan Tipe Data Contact No</description>
+   <name>TC.3.005 Pengecekan Tipe Data Contact No</name>
+   <tag>#Negatif_Test</tag>
+   <comment></comment>
+   <testCaseGuid>78189495-857d-45a2-9144-6a30b89e506b</testCaseGuid>
+</TestCaseEntity>

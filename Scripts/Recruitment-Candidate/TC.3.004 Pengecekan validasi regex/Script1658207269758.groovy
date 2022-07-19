@@ -21,7 +21,19 @@ WebUI.callTestCase(findTestCase('Login/Login Sukses'), [:], FailureHandling.STOP
 
 WebUI.click(findTestObject('Recruitment/Recruitment_Menu'))
 
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Recruitment/Candidate_Tab'))
+
 WebUI.click(findTestObject('Recruitment/btnAdd_Recruitment'))
+
+WebUI.setText(findTestObject('Recruitment/FullName_txt'), 'Elviy')
+
+WebUI.setText(findTestObject('Recruitment/MidleName_txt'), 'Tes')
+
+WebUI.setText(findTestObject('Recruitment/LastName_txt'), 'Katalon')
+
+WebUI.setText(findTestObject('Recruitment/email_txt'), 'elviy7@gmailcom')
 
 WebUI.click(findTestObject('Recruitment/btnSave_Recruitment'))
 
